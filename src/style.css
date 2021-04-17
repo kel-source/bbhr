@@ -1,12 +1,22 @@
 :root {
+  --background-color: #f4f9f9;
   --accent-color: #11df07;
 }
 
 body,
 html {
   height: 100%;
+  background-color: var(--background-color);
 }
 
+h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: 7vw;
+}
+
+.bg-light {
+  background-color: var(--background-color);
+}
 .logo {
   width: 75px;
 }
