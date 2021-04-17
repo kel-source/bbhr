@@ -1,0 +1,21 @@
+:root {
+  --accent-color: #11df07;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.logo {
+  width: 75px;
+}
+
+.banner {
+  background-image: url("/media/home/happy-jam.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 100vh;
+  z-index: -1;
+}
