@@ -1,6 +1,6 @@
 :root {
   --background-color: #f4f9f9;
-  --accent-color: #11df07;
+  --button-color: #25cb23;
 }
 
 body,
@@ -16,8 +16,8 @@ h1 {
 
 .btn-block {
   border-radius: 0;
-  border-color: #25cb23;
-  background-color: #25cb23;
+  border-color: var(--button-color);
+  background-color: var(--button-color);
   color: black;
 }
 
@@ -31,5 +31,4 @@ h1 {
   background-repeat: no-repeat;
   background-position-x: center;
   height: 100vh;
-  z-index: -1;
 }
