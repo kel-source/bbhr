@@ -14,11 +14,15 @@ h1 {
   font-size: 7vw;
 }
 
-.bg-light {
-  background-color: var(--background-color);
+.btn-block {
+  border-radius: 0;
+  border-color: #25cb23;
+  background-color: #25cb23;
+  color: black;
 }
+
 .logo {
-  width: 75px;
+  width: 15vw;
 }
 
 .banner {
